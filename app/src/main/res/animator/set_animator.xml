@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+        android:propertyName="X"
+        android:duration="3000"
+        android:valueTo="300"
+        android:repeatCount="3"
+        android:repeatMode="reverse">
+    </objectAnimator>
+
+    <objectAnimator
+        android:propertyName="Y"
+        android:duration="3000"
+        android:valueTo="500"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse">
+    </objectAnimator>
+
+</set>
